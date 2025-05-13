@@ -97,6 +97,15 @@ body {
   text-align: center;
 }
 
+footer {
+  text-align: center;
+  margin: 65px auto 48px;
+}
+
+footer img {
+  vertical-align: middle;
+}
+
 h1 {
   font-size: 36px;
 }
