@@ -1,0 +1,49 @@
+header {
+  padding-block: 32px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+#profile {
+  width: 592px;
+  height: 176px;
+  display: flex;
+  gap: 32px;
+  font: var(--profile);
+}
+
+#profile img {
+  width: 176px;
+  height: 176px;
+  object-fit: cover;
+  border-radius: 50%;
+}
+
+#about {
+  width: 384px;
+  height: 168px;
+  margin-block: 4px;
+}
+
+#about h1 {
+  font: var(--title);
+  color: var(--text-color-primary);
+  margin-bottom: 8px;
+}
+
+#info {
+  list-style: none;
+  font: var(--info);
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+  width: 280px;
+  height: 104px;
+}
+
+#info li {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
